@@ -1,0 +1,18 @@
+Rok_1_21
+ZD2 - abstract class extends, random 1-100, int++,array
+ZD3 - hash map, array
+---
+Rok_2_21
+ZD2 - y for next, other for no, array list
+---
+Rok_3_21
+ZD3 - checkiranje liste, write to file
+---
+Rok_4_21
+ZD1 - csv read
+ZD2 - array, hash map, lwr-upr
+ZD3 - interface, set integer
+---
+Rok_5_21
+ZD1 - dsc, ast list, raspon
+ZD2 - abstract, hash map
