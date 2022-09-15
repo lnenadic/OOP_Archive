@@ -12,7 +12,7 @@ public class Robot implements Service{
 
     @Override
     public void repair() {
-        System.out.println("Send me to the nearest university laboratory ...");
+        System.out.println("Send me to the nearest university Laboratory ...");
     }
 
     public void charge() {
