@@ -11,13 +11,18 @@ ZD3 - extends-implements
 Rok_2_21
 ZD1 - y for next, other for no, array list
 ---
-Rok_3_21
-ZD3 - checkiranje liste, write to file
+Rok_2_22
+ZD1 - csv, treemap
+ZD3 - bin zapis
+---
+Rok_3_22
+ZD2 - csv, treemap
 ---
 Rok_4_21
 ZD1 - csv read
 ZD2 - array, hash map, lwr-upr
 ZD3 - interface, set integer
+ZD4 - 1-*
 ---
 Rok_5_21
 ZD1 - dsc, ast list, raspon
