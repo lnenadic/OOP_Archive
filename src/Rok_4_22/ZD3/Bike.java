@@ -1,6 +1,8 @@
 package Rok_4_22.ZD3;
 
-public abstract class Bike {
+import java.io.Serializable;
+
+public abstract class Bike implements Serializable {
 
     protected String owner;
 

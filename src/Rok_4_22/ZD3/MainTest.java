@@ -1,7 +1,9 @@
 package Rok_4_22.ZD3;
 
-import java.util.ArrayList;
-import java.util.Collection;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.*;
 
 public class MainTest {
     public static void main(String[] args) {
@@ -15,15 +17,28 @@ public class MainTest {
         bikes.add(electricBike);
         bikes.add(motoBike);
         bikes.add(motoBike);
-
+        rideAllBikes(bikes);
+        HashSet<Bike> hashSet = new HashSet<>(bikes);
+        //TreeSet<Bike> treeSet = new TreeSet<>();
+        //treeSet.addAll(hashSet);
+        saveBikesData(hashSet, "/Users/lovremacbookpro/Documents/OOP/OOP_Archive/src/Rok_4_22/ZD3/bikes.bin");
     }
 
-    private void rideAllBikes(Collection<Bike> bikes) {
-
+    private static void rideAllBikes(Collection<Bike> bikes) {
+        for (Bike b: bikes) {
+            b.ride();
+        }
     }
 
-    private void saveBikesData(Collection<Bike> bikes, String s) {
-
+    private static void saveBikesData(Collection<Bike> bikes, String filename) {
+        try {
+            FileOutputStream fos = new FileOutputStream(filename);
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeObject(bikes);
+            oos.close();
+            fos.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
-
 }

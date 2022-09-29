@@ -23,8 +23,7 @@ public class AUX_FLS {
             while ((line = br.readLine()) != null) {
                 System.out.println("Reading data from csv file - creating object of the class Employer...");
                 tempArr = line.split(",");
-                DateFormat format = new SimpleDateFormat("YYYY");
-                DateFormat format1 = new SimpleDateFormat("");
+                DateFormat format = new SimpleDateFormat("yyyy");
                 Date date = format.parse(tempArr[1]);
                 Date date2 = format.parse(tempArr[2]);
                 emp.add(new Employer(tempArr[0], date, date2, tempArr[3], tempArr[4]));
