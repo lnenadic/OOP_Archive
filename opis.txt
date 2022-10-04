@@ -10,7 +10,7 @@ ZD3 - extends-implements
 ---
 Rok_2_21
 ZD1 - y for next, other for no, array list
-ZD2 - abs class, rand izbor klasa
+ZD2 - abstract class, rand izbor klasa
 ZD3 - zadan, nepromijenjiv niz 
 ZD4 - 1-*. lists
 ---
