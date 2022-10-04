@@ -6,14 +6,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-        Robot r1 = new Robot("Lovre");
-        Robot r2 = new Robot("Luka");
-        System.out.println(r1.toString());
-        System.out.println(r2.toString());
-        r1.describeRobot();
-
-         */
         ArrayList<Robot> robotArrayList = new ArrayList<>();
         populateRobotList(robotArrayList);
         for (Robot robot:robotArrayList) {
@@ -36,7 +28,6 @@ public class Main {
             if (!inpt.equals("y".toLowerCase())) {
                 break;
             }
-
         }
     }
 }

@@ -23,7 +23,7 @@ ZD2 - csv, treemap
 ---
 Rok_4_21
 ZD1 - csv read
-ZD2 - array, hash map, lwr-upr
+ZD2 - array, hash map, lwr-upr, enums
 ZD3 - interface, set integer
 ZD4 - 1-*
 ---

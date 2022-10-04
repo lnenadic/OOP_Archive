@@ -11,11 +11,9 @@ public class Robot {
 
     public Robot(String name) {
         this.name = name;
-        this.id = cnt;
-        cnt++;
+        this.id = cnt++;
         describeRobot();
     }
-
 
     public void describeRobot() {
         Scanner sc = new Scanner(System.in);
