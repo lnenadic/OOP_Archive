@@ -21,6 +21,14 @@ ZD3 - bin zapis
 Rok_3_22
 ZD2 - csv, treemap
 ---
+---
+Rok_3_21
+ZD1 - korisnik kreira objekt, sve dok zeli, koliko i postoji - javlja
+ZD2 - slučajno generira listu od num oblika, gdje je slučajni izbor između svih poznatih oblika,
+pokreće sve metode
+ZD3 - korisničkih unosa provjerava nalazi li se unos u nizu,
+Zapisuje rezultat metode u datoteku
+---
 Rok_4_21
 ZD1 - csv read
 ZD2 - array, hash map, lwr-upr, enums
